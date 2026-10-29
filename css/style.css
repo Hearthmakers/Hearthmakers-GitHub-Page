@@ -419,6 +419,52 @@ img {
   text-shadow: var(--outline-thin);
 }
 
+/* --- legal pages: the terms and the privacy policy, on one long parchment ----- */
+
+.legal-nav a[aria-current='page'] {
+  color: var(--control-gold-light);
+}
+
+.legal {
+  max-width: 860px;
+}
+
+.legal .section-title {
+  margin-top: 14px;
+}
+
+.legal .parchment {
+  font-size: 17px;
+}
+
+.legal .updated {
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+.legal h2 {
+  margin: 26px 0 8px;
+  font: 700 22px/1.2 var(--font);
+  color: var(--ink-accent);
+}
+
+.legal ul {
+  margin: 0 0 12px;
+  padding-left: 22px;
+}
+
+.legal li {
+  margin-bottom: 6px;
+}
+
+.legal a {
+  color: var(--ink-accent);
+}
+
+.legal code {
+  font-size: 15px;
+}
+
 /* --- footer ------------------------------------------------------------------ */
 
 .footer {
