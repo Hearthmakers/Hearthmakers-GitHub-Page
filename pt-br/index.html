@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hearthmakers</title>
+    <meta
+      name="description"
+      content="Hearthmakers é um jogo voxel em que cada jogador é um hearthling: construa seu reino, fabrique, cultive e explore com amigos."
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png" />
+    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png" />
+    <link rel="alternate" hreflang="en" href="../" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <div class="embers" aria-hidden="true">
+      <span style="--x: 0.0%; --size: 5px; --time: 9.0s; --delay: -2.9s; --sway: 28px"></span>
+      <span style="--x: 6.4%; --size: 3px; --time: 12.3s; --delay: -10.6s; --sway: 5px"></span>
+      <span style="--x: 11.2%; --size: 4px; --time: 12.7s; --delay: -3.4s; --sway: -15px"></span>
+      <span style="--x: 15.4%; --size: 4px; --time: 7.4s; --delay: -9.6s; --sway: -4px"></span>
+      <span style="--x: 20.5%; --size: 4px; --time: 7.9s; --delay: -7.2s; --sway: 51px"></span>
+      <span style="--x: 23.7%; --size: 4px; --time: 11.0s; --delay: -12.8s; --sway: 49px"></span>
+      <span style="--x: 26.6%; --size: 3px; --time: 12.9s; --delay: -4.7s; --sway: -42px"></span>
+      <span style="--x: 30.4%; --size: 3px; --time: 9.1s; --delay: -13.1s; --sway: 7px"></span>
+      <span style="--x: 36.4%; --size: 5px; --time: 7.4s; --delay: -3.8s; --sway: 7px"></span>
+      <span style="--x: 39.6%; --size: 3px; --time: 8.4s; --delay: -12.7s; --sway: -53px"></span>
+      <span style="--x: 43.2%; --size: 3px; --time: 11.7s; --delay: -12.9s; --sway: 2px"></span>
+      <span style="--x: 46.5%; --size: 3px; --time: 9.0s; --delay: -5.1s; --sway: -9px"></span>
+      <span style="--x: 51.4%; --size: 4px; --time: 11.3s; --delay: -3.3s; --sway: 49px"></span>
+      <span style="--x: 56.1%; --size: 5px; --time: 11.4s; --delay: -8.9s; --sway: 2px"></span>
+      <span style="--x: 60.4%; --size: 4px; --time: 13.6s; --delay: -5.6s; --sway: 25px"></span>
+      <span style="--x: 63.5%; --size: 4px; --time: 9.5s; --delay: -4.6s; --sway: -13px"></span>
+      <span style="--x: 70.0%; --size: 5px; --time: 7.8s; --delay: -11.5s; --sway: -51px"></span>
+      <span style="--x: 72.5%; --size: 2px; --time: 7.5s; --delay: -13.9s; --sway: -34px"></span>
+      <span style="--x: 77.6%; --size: 2px; --time: 10.2s; --delay: -8.3s; --sway: -43px"></span>
+      <span style="--x: 83.0%; --size: 5px; --time: 13.2s; --delay: -12.4s; --sway: 49px"></span>
+      <span style="--x: 86.5%; --size: 3px; --time: 7.1s; --delay: -3.5s; --sway: -51px"></span>
+      <span style="--x: 87.5%; --size: 4px; --time: 8.6s; --delay: -10.4s; --sway: -1px"></span>
+      <span style="--x: 94.5%; --size: 3px; --time: 13.2s; --delay: -3.3s; --sway: -15px"></span>
+      <span style="--x: 99.6%; --size: 2px; --time: 10.4s; --delay: -0.0s; --sway: 50px"></span>
+    </div>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="logo" href="#top"><img src="../assets/img/icon-192.png" alt="" />Hearthmakers</a>
+        <nav class="nav">
+          <a href="#sobre">Sobre</a>
+          <a href="#recursos">Recursos</a>
+          <a href="#comunidade">Comunidade</a>
+        </nav>
+        <a class="lang" href="../" hreflang="en"><i class="fa-solid fa-language"></i>English</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="board">
+          <h1 class="shingle">Hearthmakers</h1>
+          <p class="tagline">Um hearthling. Seu reino. Um mundo para construir juntos.</p>
+          <p>Um jogo voxel feito como <strong>tributo a Stonehearth</strong>, em desenvolvimento.</p>
+          <div class="actions">
+            <a class="button" href="https://discord.gg/wvG9pxJbRN" target="_blank" rel="noopener">
+              <i class="fa-brands fa-discord"></i>Entrar no Discord
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="sobre">
+        <h2 class="section-title">Sobre o jogo</h2>
+        <div class="parchment about">
+          <p>
+            Em Hearthmakers cada jogador é um único hearthling, movido com apontar e clicar. Seu hearthling vive num
+            reino só seu, erguido a partir de um bioma, onde você coleta, cava, constrói e fabrica.
+          </p>
+          <p>
+            Os reinos ficam num servidor, junto com lugares públicos que todos compartilham. Convide amigos para o seu
+            reino, encontre outros jogadores pelo mundo, forme um grupo e troque o que você fez.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="recursos">
+        <h2 class="section-title">Recursos</h2>
+        <div class="features">
+          <article class="parchment">
+            <h3><i class="fa-solid fa-hand-pointer"></i>Seu hearthling</h3>
+            <p>Um hearthling por jogador, movido com apontar e clicar, com atributos, vida, vigor e equipamento.</p>
+          </article>
+          <article class="parchment">
+            <h3><i class="fa-solid fa-earth-americas"></i>Reinos e lugares</h3>
+            <p>
+              Reinos pessoais num servidor, com convites para amigos, e lugares públicos abertos a todos. Cada reino nasce
+              do seu bioma: temperado, deserto ou ártico.
+            </p>
+          </article>
+          <article class="parchment">
+            <h3><i class="fa-solid fa-tree"></i>Coleta e escavação</h3>
+            <p>Derrube árvores e quebre rochas com seu cinto de ferramentas, e cave, aterre e nivele o terreno voxel, túneis inclusos.</p>
+          </article>
+          <article class="parchment">
+            <h3><i class="fa-solid fa-trowel-bricks"></i>Plantas</h3>
+            <p>
+              Desenhe estruturas em pedra, terra, madeira, argila e tijolos, com paredes e padrões de construção, e
+              construa no seu reino bloco a bloco.
+            </p>
+          </article>
+          <article class="parchment">
+            <h3><i class="fa-solid fa-hammer"></i>Fabricação e colonos</h3>
+            <p>
+              Bancadas de trabalho e colonos que trabalham nelas, assumem tarefas, cultivam fazendas, patrulham e se vestem
+              conforme a profissão.
+            </p>
+          </article>
+          <article class="parchment">
+            <h3><i class="fa-solid fa-shield-halved"></i>Combate e níveis</h3>
+            <p>Enfrente entlings e golens de pedra, ganhe experiência e suba de nível.</p>
+          </article>
+          <article class="parchment">
+            <h3><i class="fa-solid fa-people-group"></i>Jogar junto</h3>
+            <p>Chat com canais e comandos, grupos, trocas e amigos que continuam entre as sessões.</p>
+          </article>
+          <article class="parchment">
+            <h3><i class="fa-solid fa-mobile-screen-button"></i>Telas de toque também</h3>
+            <p>Todos os recursos funcionam também em telas de toque, na horizontal.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="comunidade">
+        <h2 class="section-title">Comunidade</h2>
+        <div class="community">
+          <div class="board">
+            <p>Acompanhe o desenvolvimento e converse com a equipe. Todo mundo que entra no Discord recebe o cargo</p>
+            <span class="role"><i class="fa-solid fa-fire"></i>Hearthling Precursor</span>
+            <div class="actions">
+              <a class="button" href="https://discord.gg/wvG9pxJbRN" target="_blank" rel="noopener">
+                <i class="fa-brands fa-discord"></i>Entrar no Discord
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Hearthmakers é um tributo a Stonehearth.</p>
+      <p>&copy; 2026 The Gearfinder Studios</p>
+    </footer>
+  </body>
+</html>
