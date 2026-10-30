@@ -30,7 +30,7 @@
     <main class="section legal">
       <h1 class="section-title">Privacy Policy</h1>
       <article class="parchment">
-        <p class="updated">Last updated: October 29, 2026</p>
+        <p class="updated">Last updated: October 30, 2026</p>
 
         <p>
           This policy explains what Hearthmakers stores about you when you play on a server run by The Gearfinder
@@ -68,13 +68,18 @@
           <li><strong>know who you are</strong> (<code>identify</code>): your Discord user ID and username;</li>
           <li>
             <strong>check your membership</strong> (<code>guilds.members.read</code>) of the Discord server the game
-            server requires, if it requires one.
+            server requires, if it requires one;
+          </li>
+          <li>
+            <strong>show what you play</strong> (<code>rpc.activities.write</code>) on your Discord profile: where you
+            are in the game, the character you play and the size of your party.
           </li>
         </ul>
         <p>
           We store your Discord user ID on your account, to recognise you the next time. Your Discord username may be
-          offered as your initial account name. Membership is checked each time you sign in and is not stored. We
-          don't store your Discord access token, and we don't read your messages, friends or other servers.
+          offered as your initial account name. Membership is checked each time you sign in and is not stored. Your
+          Discord access token is passed back to your own Discord client, which needs it to show what you play; we
+          don't store it, and we don't read your messages, friends or other servers.
         </p>
 
         <h2>Network data</h2>
