@@ -4,19 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Hearthmakers</title>
-    <meta
-      name="description"
-      content="Hearthmakers is a voxel game where each player is one hearthling: build your realm, craft, farm and explore with friends."
-    />
+    <meta name="description" content="Hearthmakers is a voxel game made as a tribute and homage to Stonehearth: light the fire, raise a home and build your realm with friends, right in your browser." />
+    <meta property="og:title" content="Hearthmakers" />
+    <meta property="og:description" content="Hearthmakers is a voxel game made as a tribute and homage to Stonehearth: light the fire, raise a home and build your realm with friends, right in your browser." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://hearthmakers.github.io/Hearthmakers-GitHub-Page/assets/img/screenshots/2-temperate.png" />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png" />
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
     <link rel="alternate" hreflang="pt-BR" href="pt-br/" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -53,84 +49,243 @@
         <nav class="nav">
           <a href="#about">About</a>
           <a href="#features">Features</a>
+          <a href="#biomes">Biomes</a>
+          <a href="#made">Made here</a>
           <a href="#community">Community</a>
         </nav>
-        <a class="lang" href="pt-br/" hreflang="pt-BR"><i class="fa-solid fa-language"></i>Português</a>
+        <a class="lang" href="pt-br/" hreflang="pt-BR">Português</a>
       </div>
     </header>
 
     <main id="top">
       <section class="hero">
-        <div class="board">
-          <h1 class="shingle">Hearthmakers</h1>
-          <p class="tagline">One hearthling. Your realm. A world to build together.</p>
-          <p>A voxel game made as a <strong>tribute to Stonehearth</strong>, in development.</p>
-          <div class="actions">
-            <a class="button" href="https://discord.gg/wvG9pxJbRN" target="_blank" rel="noopener">
-              <i class="fa-brands fa-discord"></i>Join the Discord
-            </a>
+        <img class="hero-world" src="assets/img/screenshots/2-temperate.png" alt="A whole realm of green hills, trees and rocks, resting on the open pages of a great book at dusk" width="1584" height="805" />
+        <div class="sheet">
+          <h1 class="sign">Hearthmakers</h1>
+          <div class="board">
+            <p class="tagline">Light the fire. Raise a home.</p>
+            <p>A voxel game made as a <strong>tribute and homage to Stonehearth</strong>. Play one pioneer, raise a home in a realm of your own and build it with friends, right in your browser.</p>
+            <div class="actions">
+              <a class="primary" href="https://hearthmakers.the-gearfinder.org" target="_blank" rel="noopener">Play in the browser</a>
+              <a class="secondary" href="https://discord.gg/wvG9pxJbRN" target="_blank" rel="noopener">Join the Discord</a>
+            </div>
+            <p class="version">v0.0.1 · in development · The Gearfinder Studios</p>
           </div>
         </div>
       </section>
 
       <section class="section" id="about">
         <h2 class="section-title">About the game</h2>
-        <div class="parchment about">
-          <p>
-            In Hearthmakers each player is a single hearthling, moved by point and click. Your hearthling lives in a
-            realm of its own, raised from a biome, where you gather, dig, build and craft.
-          </p>
-          <p>
-            Realms live on a server, together with public places that everyone shares. Invite friends to your realm,
-            meet others out in the world, form a party and trade what you have made.
-          </p>
+        <div class="parchment lead">
+          <p>Every home begins with a fire. In Hearthmakers each player is one pioneer, moved by point and click, who lights a fire in a realm of their own and raises a home around it: gathering, digging, crafting and building, block by block.</p>
+          <p>The world is a great open book. Realms live on a server, on its pages, beside public places that everyone shares. Invite friends in, meet others out in the world, form a party and trade what you have made. Turning to another world turns the page.</p>
         </div>
       </section>
 
       <section class="section" id="features">
-        <h2 class="section-title">Features</h2>
-        <div class="features">
+        <h2 class="section-title">What you do</h2>
+        <div class="feature">
+          <a class="shot" href="assets/img/screenshots/character.png" target="_blank" rel="noopener" aria-label="Open the picture: The Character window, with five attributes and a pioneer"><img src="assets/img/screenshots/character.png" alt="The Character window, with five attributes and a pioneer" loading="lazy" width="1120" height="650" /></a>
           <article class="parchment">
-            <h3><i class="fa-solid fa-hand-pointer"></i>Your hearthling</h3>
-            <p>One hearthling per player, moved by point and click, with attributes, health, stamina and gear.</p>
+            <div class="feature-head">
+              <span class="square"><img src="assets/icons/citizens.png" alt="" /></span>
+              <h3>Your pioneer</h3>
+            </div>
+            <ul>
+              <li>One pioneer per player: click where to go, or steer with the keys</li>
+              <li>Strength, Agility, Vitality, Intelligence and Dexterity, and points that can always come back</li>
+              <li>Health, stamina, running, experience and levels</li>
+              <li>22 hairstyles, 7 beards, skin, eyes, and clothes in two dyes of your choice</li>
+            </ul>
           </article>
+        </div>
+        <div class="feature">
+          <a class="shot" href="assets/img/screenshots/realm.png" target="_blank" rel="noopener" aria-label="Open the picture: The Realm window, with people, access and permissions"><img src="assets/img/screenshots/realm.png" alt="The Realm window, with people, access and permissions" loading="lazy" width="1120" height="650" /></a>
           <article class="parchment">
-            <h3><i class="fa-solid fa-earth-americas"></i>Realms and places</h3>
-            <p>
-              Personal realms on a server, with invites for friends, and public places open to everyone. Each realm
-              rises from its biome: temperate, desert or arctic.
-            </p>
+            <div class="feature-head">
+              <span class="square"><img src="assets/icons/town.png" alt="" /></span>
+              <h3>Your realm</h3>
+            </div>
+            <ul>
+              <li>A realm of your own, raised from the biome you choose</li>
+              <li>Decide who may enter, and what each role may do</li>
+              <li>Invite friends, or leave it open to visitors</li>
+              <li>Public places, open to everyone on the server</li>
+            </ul>
           </article>
+        </div>
+        <div class="feature">
+          <a class="shot" href="assets/img/screenshots/desert-close.png" target="_blank" rel="noopener" aria-label="Open the picture: Stone terraces, pits and cacti in a desert realm, seen from above"><img src="assets/img/screenshots/desert-close.png" alt="Stone terraces, pits and cacti in a desert realm, seen from above" loading="lazy" width="1120" height="650" /></a>
           <article class="parchment">
-            <h3><i class="fa-solid fa-tree"></i>Harvest and dig</h3>
-            <p>Fell trees and break boulders with your tool belt, and dig, fill and level the voxel terrain, tunnels included.</p>
+            <div class="feature-head">
+              <span class="square"><img src="assets/icons/pickaxe.png" alt="" /></span>
+              <h3>Gather and dig</h3>
+            </div>
+            <ul>
+              <li>Fell trees and break boulders with your tool belt</li>
+              <li>Dig, fill and level the voxel terrain, tunnels included</li>
+              <li>Dig up clay and fire it into bricks</li>
+            </ul>
           </article>
+        </div>
+        <div class="feature">
+          <a class="shot" href="assets/img/screenshots/editor.png" target="_blank" rel="noopener" aria-label="Open the picture: The blueprint editor, with a brick cottage under a gabled roof"><img src="assets/img/screenshots/editor.png" alt="The blueprint editor, with a brick cottage under a gabled roof" loading="lazy" width="1120" height="650" /></a>
           <article class="parchment">
-            <h3><i class="fa-solid fa-trowel-bricks"></i>Blueprints</h3>
-            <p>
-              Draw structures in stone, dirt, wood, clay and bricks, with walls and building patterns, then build them in
-              your realm block by block.
-            </p>
+            <div class="feature-head">
+              <span class="square"><img src="assets/icons/hammer.png" alt="" /></span>
+              <h3>Blueprints</h3>
+            </div>
+            <ul>
+              <li>A real editor: walls, rooms, floors, stairs and roofs</li>
+              <li>Stone, dirt, wood and brick, in many colours and 30 patterns</li>
+              <li>44 doors and windows to set into your walls</li>
+              <li>Copy, paste, turn and mirror whole parts</li>
+              <li>Set a blueprint in your realm and it rises block by block</li>
+            </ul>
           </article>
+        </div>
+        <div class="feature">
+          <a class="shot" href="assets/img/screenshots/craft.png" target="_blank" rel="noopener" aria-label="Open the picture: The Crafting window, with recipes and what they take"><img src="assets/img/screenshots/craft.png" alt="The Crafting window, with recipes and what they take" loading="lazy" width="1120" height="650" /></a>
           <article class="parchment">
-            <h3><i class="fa-solid fa-hammer"></i>Crafting and colonists</h3>
-            <p>
-              Workbenches and colonists who work by them, take on tasks, grow farms, patrol and dress for their
-              profession.
-            </p>
+            <div class="feature-head">
+              <span class="square"><img src="assets/icons/anvil.png" alt="" /></span>
+              <h3>Craft and colonists</h3>
+            </div>
+            <ul>
+              <li>Workbenches, each calling a colonist of its profession: builder, farmer or guard</li>
+              <li>Colonists take tasks, patrol, tend farms and wear the gear you give them</li>
+              <li>A storage for the whole realm</li>
+              <li>They grow with their work</li>
+            </ul>
           </article>
+        </div>
+        <div class="feature">
+          <a class="shot" href="assets/img/screenshots/inventory.png" target="_blank" rel="noopener" aria-label="Open the picture: The Inventory, with the character, the bag and what is worn"><img src="assets/img/screenshots/inventory.png" alt="The Inventory, with the character, the bag and what is worn" loading="lazy" width="1120" height="650" /></a>
           <article class="parchment">
-            <h3><i class="fa-solid fa-shield-halved"></i>Combat and levels</h3>
-            <p>Fight entlings and stone golems, earn experience and level up.</p>
+            <div class="feature-head">
+              <span class="square"><img src="assets/icons/sword.png" alt="" /></span>
+              <h3>Fight and grow</h3>
+            </div>
+            <ul>
+              <li>Entlings and little stone golems roam the realms: click to fight</li>
+              <li>Weapons and armor that show on your pioneer</li>
+              <li>Experience and levels; if you fall, you rise again at home</li>
+            </ul>
           </article>
+        </div>
+        <div class="feature">
+          <a class="shot" href="assets/img/screenshots/portal.png" target="_blank" rel="noopener" aria-label="Open the picture: The server portal, listing the characters on the account"><img src="assets/img/screenshots/portal.png" alt="The server portal, listing the characters on the account" loading="lazy" width="1120" height="650" /></a>
           <article class="parchment">
-            <h3><i class="fa-solid fa-people-group"></i>Play together</h3>
-            <p>Chat with channels and commands, parties, trades and friends that stay across sessions.</p>
+            <div class="feature-head">
+              <span class="square"><img src="assets/icons/book.png" alt="" /></span>
+              <h3>Together</h3>
+            </div>
+            <ul>
+              <li>Chat with channels, commands and @ pings</li>
+              <li>Parties that last across sessions</li>
+              <li>Trades, with both offers side by side</li>
+              <li>Friends, friend requests and blocks</li>
+              <li>A portal for your characters, realms and blueprints</li>
+            </ul>
           </article>
-          <article class="parchment">
-            <h3><i class="fa-solid fa-mobile-screen-button"></i>Touch screens too</h3>
-            <p>Every feature also works on touch screens in landscape.</p>
-          </article>
+        </div>
+      </section>
+
+      <section class="section" id="biomes">
+        <h2 class="section-title">Three biomes</h2>
+        <div class="biomes">
+          <div class="biome">
+            <a class="shot" href="assets/img/screenshots/2-temperate.png" target="_blank" rel="noopener" aria-label="Open the picture: Temperate"><img src="assets/img/screenshots/2-temperate.png" alt="Temperate" loading="lazy" width="1120" height="650" /></a>
+            <article class="parchment">
+              <div class="feature-head">
+                <span class="square"><img src="assets/icons/biome-temperate.png" alt="" /></span>
+                <h3>Temperate</h3>
+              </div>
+              <p>Green terraces, oaks, pines and brown rock. A gentle place for a first home.</p>
+            </article>
+          </div>
+          <div class="biome">
+            <a class="shot" href="assets/img/screenshots/3-desert.png" target="_blank" rel="noopener" aria-label="Open the picture: Desert"><img src="assets/img/screenshots/3-desert.png" alt="Desert" loading="lazy" width="1120" height="650" /></a>
+            <article class="parchment">
+              <div class="feature-head">
+                <span class="square"><img src="assets/icons/biome-desert.png" alt="" /></span>
+                <h3>Desert</h3>
+              </div>
+              <p>Pale sand and stone, cacti and flat-topped trees, with plenty of room under the sun.</p>
+            </article>
+          </div>
+          <div class="biome">
+            <a class="shot" href="assets/img/screenshots/4-arctic.png" target="_blank" rel="noopener" aria-label="Open the picture: Arctic"><img src="assets/img/screenshots/4-arctic.png" alt="Arctic" loading="lazy" width="1120" height="650" /></a>
+            <article class="parchment">
+              <div class="feature-head">
+                <span class="square"><img src="assets/icons/biome-arctic.png" alt="" /></span>
+                <h3>Arctic</h3>
+              </div>
+              <p>Deep snow, blue cliffs and golden trees. Keep close to the fire.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="made">
+        <h2 class="section-title">Made here</h2>
+        <div class="parchment lead"><p>Hearthmakers started out on Stonehearth’s art, as placeholders. That migration is finished: the models, icons, sounds, cursors and windows you see are now the game’s own, made with tools built for it, while Stonehearth stays where it belongs, as the inspiration.</p></div>
+        <div class="board stats">
+          <div><b>44</b><span>doors and windows</span></div>
+          <div><b>30</b><span>building patterns</span></div>
+          <div><b>22</b><span>hairstyles</span></div>
+          <div><b>12</b><span>pioneer animations</span></div>
+          <div><b>16</b><span>hair colours</span></div>
+          <div><b>13</b><span>skin tones</span></div>
+          <div><b>18</b><span>eye colours</span></div>
+          <div><b>12</b><span>cloth dyes</span></div>
+        </div>
+        <div class="cards">
+          <article class="parchment"><h3>Models</h3><p>Trees, rocks, crops, benches, tools, weapons, armor and the pioneers themselves: voxel models built by recipes, in one palette and one style, on the game’s own skeletons.</p></article>
+          <article class="parchment"><h3>Sounds</h3><p>Axes, picks, hoes, buttons and the chat’s ping, synthesized from maths with no recording behind them.</p></article>
+          <article class="parchment"><h3>Interface</h3><p>Every board, sign and sheet of parchment is painted by code. Even this page: the panels around this text come from the game’s own painter.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">A look around</h2>
+        <div class="gallery">
+          <figure><a class="shot" href="assets/img/screenshots/1-menu-book.png" target="_blank" rel="noopener" aria-label="Open the picture: The main menu"><img src="assets/img/screenshots/1-menu-book.png" alt="The main menu" loading="lazy" width="640" height="371" /></a><figcaption>The main menu</figcaption></figure>
+          <figure><a class="shot" href="assets/img/screenshots/hud.png" target="_blank" rel="noopener" aria-label="Open the picture: In the world"><img src="assets/img/screenshots/hud.png" alt="In the world" loading="lazy" width="640" height="371" /></a><figcaption>In the world</figcaption></figure>
+          <figure><a class="shot" href="assets/img/screenshots/colonist.png" target="_blank" rel="noopener" aria-label="Open the picture: A colonist at the bench"><img src="assets/img/screenshots/colonist.png" alt="A colonist at the bench" loading="lazy" width="640" height="371" /></a><figcaption>A colonist at the bench</figcaption></figure>
+          <figure><a class="shot" href="assets/img/screenshots/build.png" target="_blank" rel="noopener" aria-label="Open the picture: Build window"><img src="assets/img/screenshots/build.png" alt="Build window" loading="lazy" width="640" height="371" /></a><figcaption>Build window</figcaption></figure>
+          <figure><a class="shot" href="assets/img/screenshots/avatar.png" target="_blank" rel="noopener" aria-label="Open the picture: Avatar Generator"><img src="assets/img/screenshots/avatar.png" alt="Avatar Generator" loading="lazy" width="640" height="371" /></a><figcaption>Avatar Generator</figcaption></figure>
+          <figure><a class="shot" href="assets/img/screenshots/snow.png" target="_blank" rel="noopener" aria-label="Open the picture: A fire in the snow"><img src="assets/img/screenshots/snow.png" alt="A fire in the snow" loading="lazy" width="640" height="371" /></a><figcaption>A fire in the snow</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Where to play</h2>
+        <div class="cards">
+          <article class="parchment"><h3>In the browser</h3><p>Nothing to install. Open the game, make an account and play.</p></article>
+          <article class="parchment"><h3>On Discord</h3><p>Hearthmakers also runs as a Discord Activity, with sign-in through Discord for members of our server.</p></article>
+          <article class="parchment"><h3>On touch screens</h3><p>Every feature also works by touch, on phones and tablets in landscape.</p></article>
+        </div>
+        <div class="actions"><a class="primary" href="https://hearthmakers.the-gearfinder.org" target="_blank" rel="noopener">Play in the browser</a></div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">What comes next</h2>
+        <div class="parchment lead"><p>Plans, not promises. Hearthmakers is in development, and this is where it is heading:</p></div>
+        <div class="cards">
+          <article class="parchment"><h3>More materials</h3><p>Building materials beyond stone, dirt, wood and brick.</p></article>
+          <article class="parchment"><h3>Tiers of gear</h3><p>Tools and items in tiers of other materials.</p></article>
+          <article class="parchment"><h3>Dungeons</h3><p>Dungeon-like content for the public places.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Questions</h2>
+        <div class="parchment faq">
+          <details open><summary>Is the game finished?</summary><p>No. Hearthmakers is at version 0.0.1 and changes often. The Discord is the place to follow it.</p></details>
+          <details><summary>Is this Stonehearth?</summary><p>No. It is a free, fan-made tribute and homage to Stonehearth, with its own art, made by The Gearfinder Studios. It is not affiliated with or endorsed by the makers of Stonehearth.</p></details>
+          <details><summary>Do I need an account?</summary><p>Yes: your characters and realms are kept on the server. You sign in with a username and password or, in the Discord Activity, with Discord.</p></details>
+          <details><summary>What does it run on?</summary><p>A modern browser on a computer, or a phone or tablet held in landscape.</p></details>
         </div>
       </section>
 
@@ -138,24 +293,25 @@
         <h2 class="section-title">Community</h2>
         <div class="community">
           <div class="board">
-            <p>
-              Follow the development and talk with the team. Everyone who joins the Discord receives the role
-            </p>
-            <span class="role"><i class="fa-solid fa-fire"></i>Hearthling Precursor</span>
-            <div class="actions">
-              <a class="button" href="https://discord.gg/wvG9pxJbRN" target="_blank" rel="noopener">
-                <i class="fa-brands fa-discord"></i>Join the Discord
-              </a>
-            </div>
+            <p>Follow the development and talk with the team. Everyone who joins the Discord receives the role</p>
+            <span class="role">Forerunner</span>
+            <div class="actions"><a class="primary" href="https://discord.gg/wvG9pxJbRN" target="_blank" rel="noopener">Join the Discord</a></div>
           </div>
+          <article class="parchment">
+            <h3>Thanks</h3>
+            <p>To Riot and Radiant, the true sources of inspiration.</p>
+            <p>Stonehearth taught us that a home begins with a fire and a few friends around it. Thank you for that world, still alight in every block of this game.</p>
+          </article>
         </div>
+        <p class="credits">Music: “<a href="https://www.youtube.com/watch?v=8RgpV5wIxpE" target="_blank" rel="noopener">Minecraft Forest</a>” by <a href="https://www.youtube.com/@NubbyCakums" target="_blank" rel="noopener">Nubby Cakums</a>. Fonts: <a href="https://github.com/huertatipografica/Alegreya" target="_blank" rel="noopener">Alegreya</a> and <a href="https://github.com/eifetx/Pixelify-Sans" target="_blank" rel="noopener">Pixelify Sans</a>.</p>
       </section>
     </main>
 
     <footer class="footer">
-      <p>Hearthmakers is a tribute to Stonehearth.</p>
+      <p>Hearthmakers is a tribute and homage to Stonehearth.</p>
       <p><a href="terms/">Terms of Service</a> · <a href="privacy/">Privacy Policy</a></p>
       <p>&copy; 2026 The Gearfinder Studios</p>
     </footer>
+    <script src="js/painter.js"></script>
   </body>
 </html>

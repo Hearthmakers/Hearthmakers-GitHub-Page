@@ -4,19 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Hearthmakers</title>
-    <meta
-      name="description"
-      content="Hearthmakers é um jogo voxel em que cada jogador é um hearthling: construa seu reino, fabrique, cultive e explore com amigos."
-    />
+    <meta name="description" content="Hearthmakers é um jogo voxel feito como tributo e homenagem a Stonehearth: acenda a fogueira, erga um lar e construa seu reino com amigos, direto no navegador." />
+    <meta property="og:title" content="Hearthmakers" />
+    <meta property="og:description" content="Hearthmakers é um jogo voxel feito como tributo e homenagem a Stonehearth: acenda a fogueira, erga um lar e construa seu reino com amigos, direto no navegador." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://hearthmakers.github.io/Hearthmakers-GitHub-Page/assets/img/screenshots/2-temperate.png" />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png" />
     <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png" />
     <link rel="alternate" hreflang="en" href="../" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
@@ -53,84 +49,243 @@
         <nav class="nav">
           <a href="#sobre">Sobre</a>
           <a href="#recursos">Recursos</a>
+          <a href="#biomas">Biomas</a>
+          <a href="#feito-aqui">Feito aqui</a>
           <a href="#comunidade">Comunidade</a>
         </nav>
-        <a class="lang" href="../" hreflang="en"><i class="fa-solid fa-language"></i>English</a>
+        <a class="lang" href="../" hreflang="en">English</a>
       </div>
     </header>
 
     <main id="top">
       <section class="hero">
-        <div class="board">
-          <h1 class="shingle">Hearthmakers</h1>
-          <p class="tagline">Um hearthling. Seu reino. Um mundo para construir juntos.</p>
-          <p>Um jogo voxel feito como <strong>tributo a Stonehearth</strong>, em desenvolvimento.</p>
-          <div class="actions">
-            <a class="button" href="https://discord.gg/wvG9pxJbRN" target="_blank" rel="noopener">
-              <i class="fa-brands fa-discord"></i>Entrar no Discord
-            </a>
+        <img class="hero-world" src="../assets/img/screenshots/2-temperate.png" alt="Um reino inteiro de colinas verdes, árvores e rochas sobre as páginas abertas de um grande livro, ao entardecer" width="1584" height="805" />
+        <div class="sheet">
+          <h1 class="sign">Hearthmakers</h1>
+          <div class="board">
+            <p class="tagline">Acenda a fogueira. Erga um lar.</p>
+            <p>Um jogo voxel feito como <strong>tributo e homenagem a Stonehearth</strong>. Jogue com um personagem, erga um lar no seu próprio reino e construa com amigos, direto no navegador.</p>
+            <div class="actions">
+              <a class="primary" href="https://hearthmakers.the-gearfinder.org" target="_blank" rel="noopener">Jogar no navegador</a>
+              <a class="secondary" href="https://discord.gg/wvG9pxJbRN" target="_blank" rel="noopener">Entrar no Discord</a>
+            </div>
+            <p class="version">v0.0.1 · em desenvolvimento · The Gearfinder Studios</p>
           </div>
         </div>
       </section>
 
       <section class="section" id="sobre">
         <h2 class="section-title">Sobre o jogo</h2>
-        <div class="parchment about">
-          <p>
-            Em Hearthmakers cada jogador é um único hearthling, movido com apontar e clicar. Seu hearthling vive num
-            reino só seu, erguido a partir de um bioma, onde você coleta, cava, constrói e fabrica.
-          </p>
-          <p>
-            Os reinos ficam num servidor, junto com lugares públicos que todos compartilham. Convide amigos para o seu
-            reino, encontre outros jogadores pelo mundo, forme um grupo e troque o que você fez.
-          </p>
+        <div class="parchment lead">
+          <p>Todo lar começa com uma fogueira. Em Hearthmakers cada jogador controla um único personagem, movido por apontar e clicar, que acende uma fogueira no seu próprio reino e ergue um lar em volta dela: coletando, cavando, fabricando e construindo, bloco a bloco.</p>
+          <p>O mundo é um grande livro aberto. Os reinos ficam em um servidor, nas suas páginas, ao lado de lugares públicos que todos compartilham. Convide amigos, encontre outros jogadores pelo mundo, forme um grupo e troque o que você fez. Ir para outro mundo vira a página.</p>
         </div>
       </section>
 
       <section class="section" id="recursos">
-        <h2 class="section-title">Recursos</h2>
-        <div class="features">
+        <h2 class="section-title">O que você faz</h2>
+        <div class="feature">
+          <a class="shot" href="../assets/img/screenshots/character.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: A janela de Personagem, com cinco atributos e o personagem"><img src="../assets/img/screenshots/character.png" alt="A janela de Personagem, com cinco atributos e o personagem" loading="lazy" width="1120" height="650" /></a>
           <article class="parchment">
-            <h3><i class="fa-solid fa-hand-pointer"></i>Seu hearthling</h3>
-            <p>Um hearthling por jogador, movido com apontar e clicar, com atributos, vida, vigor e equipamento.</p>
+            <div class="feature-head">
+              <span class="square"><img src="../assets/icons/citizens.png" alt="" /></span>
+              <h3>Seu personagem</h3>
+            </div>
+            <ul>
+              <li>Um personagem por jogador: clique para onde ir, ou conduza pelo teclado</li>
+              <li>Força, Agilidade, Vitalidade, Inteligência e Destreza, com pontos que sempre podem voltar</li>
+              <li>Vida, vigor, corrida, experiência e níveis</li>
+              <li>22 penteados, 7 barbas, pele, olhos e roupas em dois tingimentos à sua escolha</li>
+            </ul>
           </article>
+        </div>
+        <div class="feature">
+          <a class="shot" href="../assets/img/screenshots/realm.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: A janela do Reino, com pessoas, acesso e permissões"><img src="../assets/img/screenshots/realm.png" alt="A janela do Reino, com pessoas, acesso e permissões" loading="lazy" width="1120" height="650" /></a>
           <article class="parchment">
-            <h3><i class="fa-solid fa-earth-americas"></i>Reinos e lugares</h3>
-            <p>
-              Reinos pessoais num servidor, com convites para amigos, e lugares públicos abertos a todos. Cada reino nasce
-              do seu bioma: temperado, deserto ou ártico.
-            </p>
+            <div class="feature-head">
+              <span class="square"><img src="../assets/icons/town.png" alt="" /></span>
+              <h3>Seu reino</h3>
+            </div>
+            <ul>
+              <li>Um reino só seu, erguido do bioma que você escolher</li>
+              <li>Decida quem pode entrar e o que cada papel pode fazer</li>
+              <li>Convide amigos, ou deixe aberto a visitantes</li>
+              <li>Lugares públicos, abertos a todos no servidor</li>
+            </ul>
           </article>
+        </div>
+        <div class="feature">
+          <a class="shot" href="../assets/img/screenshots/desert-close.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: Terraços de pedra, buracos e cactos em um reino de deserto, vistos de cima"><img src="../assets/img/screenshots/desert-close.png" alt="Terraços de pedra, buracos e cactos em um reino de deserto, vistos de cima" loading="lazy" width="1120" height="650" /></a>
           <article class="parchment">
-            <h3><i class="fa-solid fa-tree"></i>Coleta e escavação</h3>
-            <p>Derrube árvores e quebre rochas com seu cinto de ferramentas, e cave, aterre e nivele o terreno voxel, túneis inclusos.</p>
+            <div class="feature-head">
+              <span class="square"><img src="../assets/icons/pickaxe.png" alt="" /></span>
+              <h3>Colete e cave</h3>
+            </div>
+            <ul>
+              <li>Derrube árvores e quebre rochas com seu cinto de ferramentas</li>
+              <li>Cave, preencha e nivele o terreno voxel, túneis inclusive</li>
+              <li>Desenterre argila e transforme em tijolos</li>
+            </ul>
           </article>
+        </div>
+        <div class="feature">
+          <a class="shot" href="../assets/img/screenshots/editor.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: O editor de plantas, com uma casa de tijolos sob um telhado de duas águas"><img src="../assets/img/screenshots/editor.png" alt="O editor de plantas, com uma casa de tijolos sob um telhado de duas águas" loading="lazy" width="1120" height="650" /></a>
           <article class="parchment">
-            <h3><i class="fa-solid fa-trowel-bricks"></i>Plantas</h3>
-            <p>
-              Desenhe estruturas em pedra, terra, madeira, argila e tijolos, com paredes e padrões de construção, e
-              construa no seu reino bloco a bloco.
-            </p>
+            <div class="feature-head">
+              <span class="square"><img src="../assets/icons/hammer.png" alt="" /></span>
+              <h3>Plantas</h3>
+            </div>
+            <ul>
+              <li>Um editor de verdade: paredes, cômodos, pisos, escadas e telhados</li>
+              <li>Pedra, terra, madeira e tijolo, em muitas cores e 30 padrões</li>
+              <li>44 portas e janelas para colocar nas paredes</li>
+              <li>Copie, cole, gire e espelhe partes inteiras</li>
+              <li>Coloque a planta no seu reino e ela sobe bloco a bloco</li>
+            </ul>
           </article>
+        </div>
+        <div class="feature">
+          <a class="shot" href="../assets/img/screenshots/craft.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: A janela de Fabricação, com receitas e o que elas pedem"><img src="../assets/img/screenshots/craft.png" alt="A janela de Fabricação, com receitas e o que elas pedem" loading="lazy" width="1120" height="650" /></a>
           <article class="parchment">
-            <h3><i class="fa-solid fa-hammer"></i>Fabricação e colonos</h3>
-            <p>
-              Bancadas de trabalho e colonos que trabalham nelas, assumem tarefas, cultivam fazendas, patrulham e se vestem
-              conforme a profissão.
-            </p>
+            <div class="feature-head">
+              <span class="square"><img src="../assets/icons/anvil.png" alt="" /></span>
+              <h3>Fabricação e colonos</h3>
+            </div>
+            <ul>
+              <li>Bancadas, cada uma chamando um colono da sua profissão: construtor, fazendeiro ou guarda</li>
+              <li>Colonos assumem tarefas, patrulham, cuidam de fazendas e usam o equipamento que você der</li>
+              <li>Um armazém para todo o reino</li>
+              <li>Eles crescem com o trabalho</li>
+            </ul>
           </article>
+        </div>
+        <div class="feature">
+          <a class="shot" href="../assets/img/screenshots/inventory.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: O Inventário, com o personagem, a mochila e o que ele veste"><img src="../assets/img/screenshots/inventory.png" alt="O Inventário, com o personagem, a mochila e o que ele veste" loading="lazy" width="1120" height="650" /></a>
           <article class="parchment">
-            <h3><i class="fa-solid fa-shield-halved"></i>Combate e níveis</h3>
-            <p>Enfrente entlings e golens de pedra, ganhe experiência e suba de nível.</p>
+            <div class="feature-head">
+              <span class="square"><img src="../assets/icons/sword.png" alt="" /></span>
+              <h3>Lute e cresça</h3>
+            </div>
+            <ul>
+              <li>Entlings e pequenos golens de pedra andam pelos reinos: clique para lutar</li>
+              <li>Armas e armaduras que aparecem no seu personagem</li>
+              <li>Experiência e níveis; se cair, você se levanta de novo em casa</li>
+            </ul>
           </article>
+        </div>
+        <div class="feature">
+          <a class="shot" href="../assets/img/screenshots/portal.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: O portal do servidor, listando os personagens da conta"><img src="../assets/img/screenshots/portal.png" alt="O portal do servidor, listando os personagens da conta" loading="lazy" width="1120" height="650" /></a>
           <article class="parchment">
-            <h3><i class="fa-solid fa-people-group"></i>Jogar junto</h3>
-            <p>Chat com canais e comandos, grupos, trocas e amigos que continuam entre as sessões.</p>
+            <div class="feature-head">
+              <span class="square"><img src="../assets/icons/book.png" alt="" /></span>
+              <h3>Juntos</h3>
+            </div>
+            <ul>
+              <li>Chat com canais, comandos e menções com @</li>
+              <li>Grupos que duram entre as sessões</li>
+              <li>Trocas, com as duas ofertas lado a lado</li>
+              <li>Amigos, pedidos de amizade e bloqueios</li>
+              <li>Um portal para seus personagens, reinos e plantas</li>
+            </ul>
           </article>
-          <article class="parchment">
-            <h3><i class="fa-solid fa-mobile-screen-button"></i>Telas de toque também</h3>
-            <p>Todos os recursos funcionam também em telas de toque, na horizontal.</p>
-          </article>
+        </div>
+      </section>
+
+      <section class="section" id="biomas">
+        <h2 class="section-title">Três biomas</h2>
+        <div class="biomes">
+          <div class="biome">
+            <a class="shot" href="../assets/img/screenshots/2-temperate.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: Temperado"><img src="../assets/img/screenshots/2-temperate.png" alt="Temperado" loading="lazy" width="1120" height="650" /></a>
+            <article class="parchment">
+              <div class="feature-head">
+                <span class="square"><img src="../assets/icons/biome-temperate.png" alt="" /></span>
+                <h3>Temperado</h3>
+              </div>
+              <p>Terraços verdes, carvalhos, pinheiros e rocha marrom. Um lugar tranquilo para o primeiro lar.</p>
+            </article>
+          </div>
+          <div class="biome">
+            <a class="shot" href="../assets/img/screenshots/3-desert.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: Deserto"><img src="../assets/img/screenshots/3-desert.png" alt="Deserto" loading="lazy" width="1120" height="650" /></a>
+            <article class="parchment">
+              <div class="feature-head">
+                <span class="square"><img src="../assets/icons/biome-desert.png" alt="" /></span>
+                <h3>Deserto</h3>
+              </div>
+              <p>Areia clara e pedra, cactos e árvores de copa plana, com muito espaço sob o sol.</p>
+            </article>
+          </div>
+          <div class="biome">
+            <a class="shot" href="../assets/img/screenshots/4-arctic.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: Ártico"><img src="../assets/img/screenshots/4-arctic.png" alt="Ártico" loading="lazy" width="1120" height="650" /></a>
+            <article class="parchment">
+              <div class="feature-head">
+                <span class="square"><img src="../assets/icons/biome-arctic.png" alt="" /></span>
+                <h3>Ártico</h3>
+              </div>
+              <p>Neve funda, penhascos azuis e árvores douradas. Fique perto da fogueira.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="feito-aqui">
+        <h2 class="section-title">Feito aqui</h2>
+        <div class="parchment lead"><p>Hearthmakers começou com a arte do Stonehearth, como provisória. Essa migração terminou: os modelos, ícones, sons, cursores e janelas que você vê agora são do próprio jogo, feitos com ferramentas construídas para ele, e Stonehearth fica onde sempre deve ficar, como inspiração.</p></div>
+        <div class="board stats">
+          <div><b>44</b><span>portas e janelas</span></div>
+          <div><b>30</b><span>padrões de construção</span></div>
+          <div><b>22</b><span>penteados</span></div>
+          <div><b>12</b><span>animações dos personagens</span></div>
+          <div><b>16</b><span>cores de cabelo</span></div>
+          <div><b>13</b><span>tons de pele</span></div>
+          <div><b>18</b><span>cores de olhos</span></div>
+          <div><b>12</b><span>tingimentos de roupa</span></div>
+        </div>
+        <div class="cards">
+          <article class="parchment"><h3>Modelos</h3><p>Árvores, rochas, plantações, bancadas, ferramentas, armas, armaduras e os próprios pioneiros: modelos voxel feitos por receitas, em uma só paleta e um só estilo, nos esqueletos do próprio jogo.</p></article>
+          <article class="parchment"><h3>Sons</h3><p>Machados, picaretas, enxadas, botões e o aviso do chat, sintetizados a partir de matemática, sem nenhuma gravação por trás.</p></article>
+          <article class="parchment"><h3>Interface</h3><p>Cada tábua, placa e folha de pergaminho é pintada por código. Até nesta página: os painéis em volta deste texto vêm do pintor do próprio jogo.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Uma olhada</h2>
+        <div class="gallery">
+          <figure><a class="shot" href="../assets/img/screenshots/1-menu-book.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: O menu principal"><img src="../assets/img/screenshots/1-menu-book.png" alt="O menu principal" loading="lazy" width="640" height="371" /></a><figcaption>O menu principal</figcaption></figure>
+          <figure><a class="shot" href="../assets/img/screenshots/hud.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: No mundo"><img src="../assets/img/screenshots/hud.png" alt="No mundo" loading="lazy" width="640" height="371" /></a><figcaption>No mundo</figcaption></figure>
+          <figure><a class="shot" href="../assets/img/screenshots/colonist.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: Um colono na bancada"><img src="../assets/img/screenshots/colonist.png" alt="Um colono na bancada" loading="lazy" width="640" height="371" /></a><figcaption>Um colono na bancada</figcaption></figure>
+          <figure><a class="shot" href="../assets/img/screenshots/build.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: Janela de Construção"><img src="../assets/img/screenshots/build.png" alt="Janela de Construção" loading="lazy" width="640" height="371" /></a><figcaption>Janela de Construção</figcaption></figure>
+          <figure><a class="shot" href="../assets/img/screenshots/avatar.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: Gerador de Avatar"><img src="../assets/img/screenshots/avatar.png" alt="Gerador de Avatar" loading="lazy" width="640" height="371" /></a><figcaption>Gerador de Avatar</figcaption></figure>
+          <figure><a class="shot" href="../assets/img/screenshots/snow.png" target="_blank" rel="noopener" aria-label="Abrir a imagem: Uma fogueira na neve"><img src="../assets/img/screenshots/snow.png" alt="Uma fogueira na neve" loading="lazy" width="640" height="371" /></a><figcaption>Uma fogueira na neve</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Onde jogar</h2>
+        <div class="cards">
+          <article class="parchment"><h3>No navegador</h3><p>Nada para instalar. Abra o jogo, crie uma conta e jogue.</p></article>
+          <article class="parchment"><h3>No Discord</h3><p>Hearthmakers também roda como Atividade do Discord, com entrada pelo Discord para membros do nosso servidor.</p></article>
+          <article class="parchment"><h3>Em telas de toque</h3><p>Todos os recursos também funcionam por toque, em celulares e tablets na horizontal.</p></article>
+        </div>
+        <div class="actions"><a class="primary" href="https://hearthmakers.the-gearfinder.org" target="_blank" rel="noopener">Jogar no navegador</a></div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">O que vem por aí</h2>
+        <div class="parchment lead"><p>Planos, não promessas. Hearthmakers está em desenvolvimento, e é para cá que ele vai:</p></div>
+        <div class="cards">
+          <article class="parchment"><h3>Mais materiais</h3><p>Materiais de construção além de pedra, terra, madeira e tijolo.</p></article>
+          <article class="parchment"><h3>Níveis de equipamento</h3><p>Ferramentas e itens em níveis de outros materiais.</p></article>
+          <article class="parchment"><h3>Masmorras</h3><p>Conteúdo no estilo de masmorras para os lugares públicos.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Perguntas</h2>
+        <div class="parchment faq">
+          <details open><summary>O jogo está pronto?</summary><p>Não. Hearthmakers está na versão 0.0.1 e muda com frequência. O Discord é o lugar para acompanhar.</p></details>
+          <details><summary>Isto é o Stonehearth?</summary><p>Não. É um tributo e homenagem a Stonehearth, gratuito e feito por fãs, com arte própria, pela The Gearfinder Studios. Não tem afiliação nem aval dos criadores de Stonehearth.</p></details>
+          <details><summary>Preciso de conta?</summary><p>Sim: seus personagens e reinos ficam guardados no servidor. Você entra com usuário e senha ou, na Atividade do Discord, com o Discord.</p></details>
+          <details><summary>Onde ele roda?</summary><p>Em um navegador moderno no computador, ou em um celular ou tablet na horizontal.</p></details>
         </div>
       </section>
 
@@ -138,22 +293,25 @@
         <h2 class="section-title">Comunidade</h2>
         <div class="community">
           <div class="board">
-            <p>Acompanhe o desenvolvimento e converse com a equipe. Todo mundo que entra no Discord recebe o cargo</p>
-            <span class="role"><i class="fa-solid fa-fire"></i>Hearthling Precursor</span>
-            <div class="actions">
-              <a class="button" href="https://discord.gg/wvG9pxJbRN" target="_blank" rel="noopener">
-                <i class="fa-brands fa-discord"></i>Entrar no Discord
-              </a>
-            </div>
+            <p>Acompanhe o desenvolvimento e converse com a equipe. Todos que entram no Discord recebem o cargo</p>
+            <span class="role">Forerunner</span>
+            <div class="actions"><a class="primary" href="https://discord.gg/wvG9pxJbRN" target="_blank" rel="noopener">Entrar no Discord</a></div>
           </div>
+          <article class="parchment">
+            <h3>Agradecimentos</h3>
+            <p>À Riot e à Radiant, verdadeiras fontes de inspiração.</p>
+            <p>Stonehearth nos ensinou que um lar começa com uma fogueira e alguns amigos em volta dela. Obrigado por esse mundo, que segue aceso em cada bloco deste jogo.</p>
+          </article>
         </div>
+        <p class="credits">Música: “<a href="https://www.youtube.com/watch?v=8RgpV5wIxpE" target="_blank" rel="noopener">Minecraft Forest</a>”, de <a href="https://www.youtube.com/@NubbyCakums" target="_blank" rel="noopener">Nubby Cakums</a>. Fontes: <a href="https://github.com/huertatipografica/Alegreya" target="_blank" rel="noopener">Alegreya</a> e <a href="https://github.com/eifetx/Pixelify-Sans" target="_blank" rel="noopener">Pixelify Sans</a>.</p>
       </section>
     </main>
 
     <footer class="footer">
-      <p>Hearthmakers é um tributo a Stonehearth.</p>
+      <p>Hearthmakers é um tributo e homenagem a Stonehearth.</p>
       <p><a href="../terms/">Termos de Serviço</a> · <a href="../privacy/">Política de Privacidade</a></p>
       <p>&copy; 2026 The Gearfinder Studios</p>
     </footer>
+    <script src="../js/painter.js"></script>
   </body>
 </html>
