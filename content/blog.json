@@ -80,9 +80,26 @@
     "homeLogo": null
   },
   "layout": {
-    "blocks": [],
+    "blocks": [
+      {
+        "id": "b1",
+        "kind": "recent",
+        "place": "sidebar",
+        "titles": {
+          "en": "",
+          "pt-BR": ""
+        },
+        "texts": {
+          "en": "",
+          "pt-BR": ""
+        },
+        "picture": null,
+        "links": [],
+        "count": 5
+      }
+    ],
     "sidebar": {
-      "home": false,
+      "home": true,
       "post": true,
       "list": true,
       "gallery": true,
