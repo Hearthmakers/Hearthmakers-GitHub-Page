@@ -82,6 +82,22 @@
   "layout": {
     "blocks": [
       {
+        "id": "b2",
+        "kind": "about",
+        "place": "sidebar",
+        "titles": {
+          "en": "About",
+          "pt-BR": "Sobre"
+        },
+        "texts": {
+          "en": "**The Gearfinder Studios:**\n\nWe're a small but passionate team of three, out to give our players fun, remarkable experiences and memories. We started out as Minecraft players and server developers. We hope you enjoy your time here!",
+          "pt-BR": "**The Gearfinder Studios:**\n\nSomos uma equipe pequena, mas apaixonada, de três pessoas, que busca proporcionar aos nossos jogadores experiências e memórias divertidas e marcantes. Começamos como jogadores e desenvolvedores de servidores de Minecraft. Esperamos que você aproveite seu tempo aqui!"
+        },
+        "picture": "block-b2.gif",
+        "links": [],
+        "count": 5
+      },
+      {
         "id": "b1",
         "kind": "recent",
         "place": "sidebar",
@@ -99,7 +115,7 @@
       }
     ],
     "sidebar": {
-      "home": true,
+      "home": false,
       "post": true,
       "list": true,
       "gallery": true,
