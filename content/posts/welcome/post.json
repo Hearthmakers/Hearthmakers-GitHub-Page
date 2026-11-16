@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-16T19:57:00.000Z",
+  "tags": [
+    "Portal",
+    "News"
+  ],
+  "cover": "cover.png",
+  "featured": true,
+  "scheduled": null,
+  "words": {
+    "en": {
+      "title": "Welcome!",
+      "summary": "Welcome to Hearthmakers! Enjoy your stay and have fun!"
+    },
+    "pt-BR": {
+      "title": "Boas-vindas!",
+      "summary": "Boas-vindas à Hearthmakers! Esperamos que divirta-se e aproveite!"
+    }
+  }
+}

@@ -4,16 +4,16 @@
     "pt-BR"
   ],
   "theme": "hearthmakers",
-  "address": "",
-  "author": "",
+  "address": "https://makers.the-gearfinder.org",
+  "author": "The Gearfinder Studios",
   "words": {
     "en": {
       "title": "Hearthmakers",
-      "description": ""
+      "description": "Welcome to the official Hearthmakers portal!\n\nHearthmakers is a cozy voxel game about building a home, exploring the world and sharing the journey with friends.\n\nHere you can find useful information about the game and keep up with how it grows. Pull up a seat by the hearth and join us on this journe"
     },
     "pt-BR": {
       "title": "Hearthmakers",
-      "description": ""
+      "description": "Boas-vindas ao portal oficial de Hearthmakers!\n\nHearthmakers é um jogo de voxel aconchegante sobre construir um lar, explorar o mundo e dividir a jornada com os amigos.\n\nAqui você encontra informações úteis sobre o jogo e acompanha o crescimento dele. Puxe uma cadeira perto da lareira e venha com a"
     }
   },
   "siteWords": {},
@@ -75,8 +75,8 @@
       "text": null,
       "headings": null
     },
-    "icon": null,
-    "logo": null,
+    "icon": "icon.gif",
+    "logo": "logo.gif",
     "homeLogo": null
   },
   "layout": {

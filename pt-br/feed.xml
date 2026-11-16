@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hearthmakers</title>
+    <link>https://makers.the-gearfinder.org/pt-br/</link>
+    <description>Boas-vindas ao portal oficial de Hearthmakers!
+
+Hearthmakers é um jogo de voxel aconchegante sobre construir um lar, explorar o mundo e dividir a jornada com os amigos.
+
+Aqui você encontra informações úteis sobre o jogo e acompanha o crescimento dele. Puxe uma cadeira perto da lareira e venha com a</description>
+    <language>pt-BR</language>
+    <atom:link href="https://makers.the-gearfinder.org/pt-br/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boas-vindas!</title>
+      <link>https://makers.the-gearfinder.org/pt-br/posts/welcome/</link>
+      <guid isPermaLink="true">https://makers.the-gearfinder.org/pt-br/posts/welcome/</guid>
+      <pubDate>Mon, 16 Nov 2026 19:57:00 GMT</pubDate>
+      <description>Boas-vindas à Hearthmakers! Esperamos que divirta-se e aproveite!</description>
+    </item>
+  </channel>
+</rss>
