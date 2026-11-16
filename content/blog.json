@@ -1,0 +1,97 @@
+{
+  "languages": [
+    "en",
+    "pt-BR"
+  ],
+  "theme": "hearthmakers",
+  "address": "",
+  "author": "",
+  "words": {
+    "en": {
+      "title": "Hearthmakers",
+      "description": ""
+    },
+    "pt-BR": {
+      "title": "Hearthmakers",
+      "description": ""
+    }
+  },
+  "siteWords": {},
+  "links": [],
+  "sections": [],
+  "menu": [
+    {
+      "kind": "posts",
+      "labels": {
+        "en": "",
+        "pt-BR": "Postagens"
+      },
+      "icon": "solid/scroll",
+      "show": "both"
+    },
+    {
+      "kind": "gallery",
+      "labels": {
+        "en": "",
+        "pt-BR": "Galeria"
+      },
+      "icon": "solid/brush",
+      "show": "both"
+    },
+    {
+      "kind": "link",
+      "url": "https://hearthmakers.the-gearfinder.org/",
+      "labels": {
+        "en": "Game",
+        "pt-BR": "Jogo"
+      },
+      "icon": "solid/gear",
+      "show": "both"
+    },
+    {
+      "kind": "link",
+      "url": "https://github.com/Hearthmakers/Hearthmakers-Releases",
+      "labels": {
+        "en": "GitHub",
+        "pt-BR": "GitHub"
+      },
+      "icon": "brands/github",
+      "show": "both"
+    }
+  ],
+  "bar": {
+    "sticky": true,
+    "folds": false,
+    "languages": "auto"
+  },
+  "look": {
+    "colors": {
+      "accent": null,
+      "background": null,
+      "surface": null,
+      "text": null
+    },
+    "fonts": {
+      "text": null,
+      "headings": null
+    },
+    "icon": null,
+    "logo": null,
+    "homeLogo": null
+  },
+  "layout": {
+    "blocks": [],
+    "sidebar": {
+      "home": false,
+      "post": true,
+      "list": true,
+      "gallery": true,
+      "page": true
+    },
+    "side": "right",
+    "footer": {
+      "en": "",
+      "pt-BR": ""
+    }
+  }
+}
