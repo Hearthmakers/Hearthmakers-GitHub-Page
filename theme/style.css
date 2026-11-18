@@ -432,6 +432,15 @@ img {
   max-height: 260px;
 }
 
+/* The front page's logo where the blog has it stand, the middle unless it says otherwise. */
+.home-logo.align-left {
+  text-align: left;
+}
+
+.home-logo.align-right {
+  text-align: right;
+}
+
 /* The ways into the blog's parts, between its name and the other language. */
 .nav {
   flex: none;
@@ -1729,10 +1738,35 @@ button.tag {
   display: block;
   width: 96px;
   height: 96px;
-  margin: 3px 3px 14px;
+  /* In the middle of its block, its frame's ring clear of the edges. */
+  margin: 3px auto 14px;
   object-fit: cover;
   border: 3px solid #000;
   box-shadow: 0 0 0 3px var(--wood-frame);
+}
+
+/* Words lined up as the blog has them: a block's, the footer's, a post's or a page's. */
+.block-text.align-center,
+.footer-text.align-center,
+.markdown.align-center {
+  text-align: center;
+}
+
+.block-text.align-right,
+.footer-text.align-right,
+.markdown.align-right {
+  text-align: right;
+}
+
+.block-text.align-justify,
+.footer-text.align-justify,
+.markdown.align-justify {
+  text-align: justify;
+}
+
+/* The footer said left where its theme centres it. */
+.footer-text.align-left {
+  text-align: left;
 }
 
 .block-text {
